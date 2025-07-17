@@ -1,3 +1,17 @@
+//github
+powershell:
 git init
 git add .
 git commit -m 'Set up the base file & folder structure for the rest of the app'
+git branch -M main
+git remote add origin https://github.com/chok42/fast_food_app.git
+git push -u origin main
+
+//appwrite
+JSC_Fast_Food
+com.jsc.fastfood
+
+npm:
+npx expo install react-native-appwrite react-native-url-polyfill
+
+database id: 687878ca0015785ae56a
